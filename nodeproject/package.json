@@ -6,12 +6,20 @@
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
     "async": "~0.2.8",
+    "ejs": "^2.5.1",
     "express": "^4.13.4",
     "socket.io": "~0.9.14"
   },
   "scripts": {
     "start": "node app.js"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "jshint": "^2.9.3",
+    "wiredep": "^4.0.0"
+  },
   "license": "ISC"
 }

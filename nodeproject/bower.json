@@ -3,7 +3,7 @@
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
   "authors": [
-    "Mostafa Eweda <mo.eweda@gmail.com>"
+    "Ericka Allen <ericka.allen@gmail.com>"
   ],
   "license": "ISC",
   "homepage": "",
@@ -16,5 +16,14 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    }
   }
 }
